@@ -14,33 +14,55 @@ header {
   padding-left: 110px;
   font-size: 14px;
   font-weight: bold;
+  max-width: 1280px;
 }
 div {
   padding: 10px;
+  display: none;
 }
 
 .right-box {
   display: flex;
   align-items: center;
-  padding-right: 120px;
+  padding-right: 50px;
 }
 
 .left-elements {
   display: flex;
   align-items: center;
-  margin-right: 10px;
+  padding: 10px;
 }
 
 .techit-logo {
   padding-right: 50px;
+  cursor: pointer;
 }
 
 .user-logo {
   width: auto;
   height: auto;
   padding-left: 15px;
+  display: none;
 }
 
-#tekit-school {
+#tekit-school,
+#startup,
+#vod,
+#education,
+#event {
   cursor: pointer;
+}
+
+.ellipsis {
+  width: 24px;
+  padding-left: 20px;
+}
+
+@media (min-width: 1024px) {
+  div {
+    display: inline-block;
+  }
+  .user-logo {
+    display: inline-block;
+  }
 }
