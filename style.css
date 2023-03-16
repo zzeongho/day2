@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 108px;
+  height: 50px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  padding-left: 110px;
+  font-size: 14px;
+  font-weight: bold;
+}
+div {
+  padding: 10px;
+}
+
+.right-box {
+  display: flex;
+  align-items: center;
+  padding-right: 120px;
+}
+
+.left-elements {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.techit-logo {
+  padding-right: 50px;
+}
+
+.user-logo {
+  width: auto;
+  height: auto;
+  padding-left: 15px;
+}
+
+#tekit-school {
+  cursor: pointer;
+}
